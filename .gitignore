@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Some files to not push 
+__*
+
+# Allow __init__.py files
+!__init__.py

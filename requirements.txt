@@ -1,0 +1,10 @@
+yfinance
+
+ipykernel
+ipywidgets
+
+numpy
+pandas
+
+seaborn
+mplfinance
