@@ -43,8 +43,7 @@ class TickerData:
         Plot the downloaded data using mplfinance.
         """
         if self.__data_df.empty:
-            raise ValueError("No data available to plot. Please download data first.")
-        
+            raise ValueError("No data available to plot. Please download data first.")        
         mpf.plot(self.__data_df, type=kwargs.get("type", "candle"), style=kwargs.get("style", "yahoo"),
                  title=kwargs.get("title", f"{self.ticker} Price Data"),
                  volume=kwargs.get("volume", True))

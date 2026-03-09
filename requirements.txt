@@ -5,6 +5,7 @@ ipywidgets
 
 numpy
 pandas
+scipy
 
 seaborn
 mplfinance
