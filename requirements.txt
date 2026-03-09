@@ -9,3 +9,6 @@ scipy
 
 seaborn
 mplfinance
+
+selenium
+beautifulsoup4
